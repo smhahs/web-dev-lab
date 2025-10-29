@@ -1,5 +1,5 @@
 import React from "react";
-
+// table component
 const Table = ({ employees }) => {
   return (
     <table>
