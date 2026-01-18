@@ -1,0 +1,68 @@
+export const translations = {
+  en: {
+    title: "Jade Dragon Tea",
+    home: "Home",
+    login: "Login",
+    cart: "Cart",
+    welcome: "Premium Chinese Tea",
+    buy: "Add to Cart",
+    price: "Price",
+    email: "Email Address",
+    password: "Password",
+    submit: "Sign In",
+    required: "Required field",
+    invalidEmail: "Invalid email address",
+    shortPassword: "Password must be at least 6 characters",
+    emptyCart: "Your cart is empty like a broken cup.",
+    switchTheme: "Theme",
+    products: [
+      { id: 1, name: 'Milk Oolong', desc: 'Smooth creamy taste' },
+      { id: 2, name: 'Da Hong Pao', desc: 'Imperial Rock Tea' },
+      { id: 3, name: 'Puer Gong Ting', desc: 'Energy booster' },
+    ]
+  },
+  ru: {
+    title: "Нефритовый Дракон",
+    home: "Главная",
+    login: "Войти",
+    cart: "Корзина",
+    welcome: "Элитный Китайский Чай",
+    buy: "В корзину",
+    price: "Цена",
+    email: "Email адрес",
+    password: "Пароль",
+    submit: "Войти",
+    required: "Обязательное поле",
+    invalidEmail: "Некорректный email",
+    shortPassword: "Пароль должен быть длиннее 6 символов",
+    emptyCart: "Корзина пуста, как разбитая чашка.",
+    switchTheme: "Тема",
+    products: [
+      { id: 1, name: 'Молочный Улун', desc: 'Нежный сливочный вкус' },
+      { id: 2, name: 'Да Хун Пао', desc: 'Императорский утесный чай' },
+      { id: 3, name: 'Пуэр Гун Тин', desc: 'Бодрит лучше энергетика' },
+    ]
+  },
+  zh: {
+    title: "玉龙茶",
+    home: "首页",
+    login: "登录",
+    cart: "购物车",
+    welcome: "特级中国茶",
+    buy: "加入购物车",
+    price: "价格",
+    email: "电子邮件",
+    password: "密码",
+    submit: "登录",
+    required: "必填项",
+    invalidEmail: "无效的电子邮件",
+    shortPassword: "密码长度至少为6位",
+    emptyCart: "购物车是空的",
+    switchTheme: "主题",
+    products: [
+      { id: 1, name: '奶香乌龙', desc: '顺滑的奶油口感' },
+      { id: 2, name: '大红袍', desc: '皇家岩茶' },
+      { id: 3, name: '宫廷普洱', desc: '能量助推器' },
+    ]
+  }
+};
